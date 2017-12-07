@@ -19,7 +19,7 @@ public class Main {
 		cp.setX(116.231);
 		cp.setY(44.55231);
 		List<VecuteObject> pList;// ³éÏ¡Ä¿±ê¼¯
-		int pointNum = 50000;
+		int pointNum = 500000;
 		pList = new GeneratePoints().getTestPointList(cp, pointNum, 2.0);
 		long startMillis = System.currentTimeMillis();
 		pList = Algorithm.vecutePoints(pList, 100, 200);
